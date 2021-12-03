@@ -1,0 +1,19 @@
+{
+    "name": "testimonials-grid-section-main",
+    "version": "1.0.0",
+    "description": "![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)",
+    "main": "index.js",
+    "dependencies": {
+        "bootstrap": "^5.1.3",
+        "sass": "^1.43.5"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "applysass": "sass --watch ./sass:./css",
+        "build": "purgecss --css css/custom.css --content index.html -o css/style.css",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
